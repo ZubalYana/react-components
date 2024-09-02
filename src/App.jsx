@@ -5,8 +5,9 @@ function App() {
   return (
     <> 
     <div className="test">
+    <Header>
     <Logo/>
-    <Header/>
+    </Header>
     </div>
     </>
   )

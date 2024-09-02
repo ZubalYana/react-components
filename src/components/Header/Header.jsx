@@ -1,9 +1,11 @@
 import React from 'react'
 import './Header.css'
-export default function Header(){
+export default function Header({ children }){
     return(
         <div className='Header'>
-            <div className="logo">React</div>
+            <div className="logo">
+            {children}
+                React</div>
             <nav>
                 <ul>
                     <li>Home</li>
