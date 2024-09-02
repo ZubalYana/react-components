@@ -6,8 +6,23 @@ export default function Futer({ children }){
             <div className="logo">
             {children}
                 React</div>
-            <nav>
-                <ul>
+            <nav className='futerNav'>
+                <ul className='futerUl'> 
+                    <div className="title">Navigation</div>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                    <li>Help</li>
+                </ul>
+                <ul className='futerUl'> 
+                    <div className="title">Navigation</div>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                    <li>Help</li>
+                </ul>
+                <ul className='futerUl'> 
+                    <div className="title">Navigation</div>
                     <li>Home</li>
                     <li>About</li>
                     <li>Contacts</li>
